@@ -1,0 +1,118 @@
+commit means report to anyone
+-------------------------------------------------------------------------------
+1.At first git connect with with folder where I am working
+
+2.Then have to check git initialize or init do or not -- command with git status
+
+there is no git relation with this git_practice folder by checking commad -- git status
+(if git not initialize then it will be showed the folowing command
+
+-fatal: not a git repository (or any of the parent directories) 
+
+3.Then git instatall or command of the git initialize --  git init
+
+ the following command will be showed after git inifialized
+
+-Initialized empty Git repository in C:/Users/Muhsina Akter/Desktop/git_practice/.git/
+
+
+4.then git status 
+
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        git.txt
+        index.php.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+5. then has to configure git command to show username and email ---  git config --list   
+
+6. then set username command  --- git config user.name "muhsina.akter"   
+
+showing following output : Muhsina Akter@muhsina-akter MINGW64 ~/Desktop/git_practice (master)
+
+
+7. then set email --- git gonfig user.email "muhsina.akter2@gmail.com"
+
+showing following output : Muhsina Akter@muhsina-akter MINGW64 ~/Desktop/git_practice (master)
+
+
+8. git config --list
+
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=E:/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=muhsina.akter
+user.email=muhsina.akter2@gmail.com
+
+
+---------------------------------------------------
+Global git Congiguration for all projects
+
+9. 
+ git config --global user.name "muhsina.akter"
+
+ Muhsina Akter@muhsina-akter MINGW64 ~/Desktop/git_practice (master)
+
+ git config --global user.email "muhsina.akter2@gmail.com"
+
+Muhsina Akter@muhsina-akter MINGW64 ~/Desktop/git_practice (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=E:/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+user.name=muhsina.akter                     ----Global username
+user.email=muhsina.akter2@gmail.com         ----Global email
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=muhsina.akter                   ----local / individula username     
+user.email=muhsina.akter2@gmail.com       ---- local / individula password 
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+Login Link : https://github.com/
+
+Email address : muhsina.akter2@gmail.com
+
+Password : 01715022945m
+
+
+3. 
+
+3.git install by -- git init -- how to create git roposiroty for a folder by git init
